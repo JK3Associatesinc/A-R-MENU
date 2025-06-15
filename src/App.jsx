@@ -1,3 +1,4 @@
+import ARPizza from './ARPizza';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./Menu";
 import ARView from "./ARView";

@@ -1,15 +1,13 @@
+import './App.css';
 import ARPizza from './ARPizza';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Menu from "./Menu";
-import ARView from "./ARView";
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Menu />} />
-        <Route path="/ar/:id" element={<ARView />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <h1>Welcome to AR Menu</h1>
+      <ARPizza />
+    </div>
   );
 }
+
+export default App;
